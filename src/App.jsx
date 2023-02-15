@@ -1,10 +1,12 @@
 import React from 'react';
-
+import List from './Components/List';
 const App = () => {
     return (
-        <h1 className="text-3xl font-bold underline">
-            Hello world!
-        </h1>
+        <>
+            <div className='w-full flex h-[100vh] bg-gray-900 items-center justify-center'>
+                <List />
+            </div>
+        </>
     );
 };
 
